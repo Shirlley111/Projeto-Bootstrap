@@ -1,0 +1,100 @@
+body{
+    font: 20px Arial, sans-serif;
+} 
+.navbar{
+    background-color:#82FA58;
+}
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.btn{
+    background-color:#82FA58;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quem-somos{
+    background-color:#90f8aa;
+    color:#424242;
+}
+.serviços{
+    background-color:#abf1ab;
+    color:#424242;
+}
+.serviços a{
+    width: 100px;
+    background-color: #82FA58;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 5px 10px;
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.planos{
+    background-color: #BCF5A9;
+    color: #424242;
+}
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.item-plano{
+    flex:1;
+    border: 2px solid black;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+}
+.item-plano h4{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.item-plano h4::after{
+    content:"";
+    background-color: #82FA58;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.item-plano ul li{
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: center;
+}
+.item-plano ul li::before{
+    content:"";
+    width: 10px;
+    height: 10px;
+    background-color: #82FA58;
+    margin-right: 5px;
+}
+.parceiros{
+    background-color:#CEF6CE;
+    color: #424242;
+}
+ 
